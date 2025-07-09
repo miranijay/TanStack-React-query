@@ -4,7 +4,6 @@ import { fetchPost } from '../API/api';
 const FetchOld = () => {
 
     const [posts, setPosts] = useState([]);
-
     const getPostData = async () => {
         try {
             const res = await fetchPost();
